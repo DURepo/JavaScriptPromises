@@ -1,7 +1,7 @@
 //------------------Promise Practice
 
 
-console.log('Starting')
+//console.log('Starting')
 const addasyncFunction = (a,b)=>{
     
   //write code to return a promise that waits for 2 seconds and 
@@ -26,4 +26,4 @@ addasyncFunction(1 , -2)
 .then((result)=>{console.log('result: ', result)})
 .catch((err)=>{console.log('error: ', err)})
 
-console.log('Ending')
+//console.log('Ending')
